@@ -361,9 +361,15 @@ template {
 
   @import 'menu1';
   @import 'menu2';
+  @import 'menu3';
+  @import 'menu4';
 
 
   @media only screen and (max-width: 600px){
+
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
   
   .header {
     display: flex;
@@ -543,6 +549,7 @@ template {
 
       .title-footer {
         color:white;
+        font-family: 'Shrikhand', cursive;
       }
 
     }
