@@ -354,6 +354,7 @@ body {
 .card_menu h3 {
   font-style: italic;
   font: bold;
+  margin-bottom: 0;
 }
 
 .menu1-title {
@@ -426,6 +427,14 @@ h4 {
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
+.menu_1:hover .fa-circle-check {
+  margin-left: 2px;
+  color: white;
+  transform: rotate(360deg);
+  transition-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
 
 .text_menu1 {
   width: 100%;
@@ -448,6 +457,7 @@ h4 {
 .confirmation .fa-circle-check {
   margin-left: 2px;
   color: white;
+  transform: rotate(180deg);
 }
 
 .commander {
@@ -480,6 +490,153 @@ h4 {
   gap: 8px;
 }
 .logo-footer .title-footer {
+  color: white;
+}
+
+body {
+  height: 1200px;
+}
+
+.return-container {
+  display: flex;
+  align-items: center;
+}
+.return-container .return {
+  color: black;
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: xx-large;
+}
+
+.img_menu2 > img {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.card_menu {
+  background-color: #f2f2f2;
+  border-radius: 40px 40px 0 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 20px;
+  margin-top: -50px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.card_menu h3 {
+  font-style: italic;
+  font: bold;
+}
+
+.menu1-title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: black;
+  align-items: center;
+  margin-right: 25px;
+}
+.menu1-title .heart-menu {
+  position: relative;
+  display: flex;
+  justify-content: right;
+}
+.menu1-title h4 {
+  border-bottom: 2px solid #32cdcd !important;
+  width: 50px;
+  margin: 0;
+}
+.menu1-title .menu_2 {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  line-height: 2px;
+  overflow: hidden;
+}
+.menu1-title .menu_2:hover .confirmation {
+  margin: 0;
+  transition-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.menu1-title .menu_2:hover .fa-circle-check {
+  margin-left: 2px;
+  color: white;
+  transform: rotate(360deg);
+  transition-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.menu1-title .menu_2 p {
+  margin-left: 10px;
+  width: 100%;
+}
+.menu1-title .menu_2 p .span {
+  float: right;
+  padding-left: 10px;
+}
+.menu1-title .menu_2 .price {
+  float: right;
+}
+.menu1-title .text_menu2 {
+  width: 100%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.menu1-title .confirmation {
+  width: 70px;
+  height: auto;
+  background-color: #32cdcd;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -70px;
+}
+.menu1-title .confirmation .fa-circle-check {
+  margin-left: 2px;
+  color: white;
+  transform: rotate(180deg);
+}
+.menu1-title .commander {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  background-image: linear-gradient(#9356DC, #FF79DA);
+}
+.menu1-title .logo-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 0;
+  background-color: grey;
+  gap: 20px;
+  position: absolute;
+  z-index: 1;
+}
+.menu1-title .logo-footer .text-footer {
+  margin-left: 20px;
+  display: flex;
+  gap: 8px;
+}
+.menu1-title .logo-footer .title-footer {
   color: white;
 }
 

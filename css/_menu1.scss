@@ -232,6 +232,7 @@ body {
   h3 {
       font-style: italic;
       font: bold;
+      margin-bottom: 0;
   }
   
 }
@@ -318,8 +319,15 @@ h4 {
         transition-duration: 1s;
         animation-fill-mode: both;
       }
-    }
 
+      .fa-circle-check {
+        margin-left:2px;
+        color:white;
+        transform: rotate(360deg);
+        transition-duration: 1s;
+        animation-fill-mode: both;
+      }
+    }
 }
 
 .text_menu1 {
@@ -344,7 +352,9 @@ h4 {
     .fa-circle-check {
       margin-left:2px;
       color:white;
+      transform: rotate(180deg);
     }
+
   }
 
 .commander { 
